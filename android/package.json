@@ -1,0 +1,22 @@
+{
+  "name": "pile-android",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Android rebuild scaffold for Pile",
+  "main": "App.tsx",
+  "scripts": {
+    "typecheck": "tsc -p tsconfig.json"
+  },
+  "dependencies": {
+    "gray-matter": "^4.0.3",
+    "react": "18.2.0",
+    "react-native": "0.74.1",
+    "react-native-document-picker": "^9.1.1",
+    "react-native-fs": "^2.20.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.61",
+    "@types/react-native": "^0.73.0",
+    "typescript": "^5.5.4"
+  }
+}
